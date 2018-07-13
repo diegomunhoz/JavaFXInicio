@@ -1,0 +1,10 @@
+#root{
+    -fx-background-color: linear-gradient(lightgray, gray);
+}
+
+#idbotao{
+    -fx-background-color: linear-gradient(greenyellow, limegreen);
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-padding: 5 30 5 30;
+}

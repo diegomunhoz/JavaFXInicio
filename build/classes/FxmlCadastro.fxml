@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="264.0" prefWidth="444.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="CadastroController">
+  <children>
+    <Label layoutX="35.0" layoutY="59.0" text="Nome:" />
+    <Label layoutX="35.0" layoutY="26.0" text="Código:" />
+    <Label layoutX="35.0" layoutY="91.0" text="Idade:" />
+    <Label layoutX="34.0" layoutY="122.0" text="Cidade:" />
+    <Label layoutX="35.0" layoutY="155.0" text="Login:" />
+    <Label layoutX="35.0" layoutY="189.0" text="Senha:" />
+    <TextField fx:id="txtCodigo" layoutX="100.0" layoutY="26.0" prefWidth="122.0" />
+    <TextField fx:id="txtNome" layoutX="100.0" layoutY="56.0" prefWidth="298.0" />
+    <TextField fx:id="txtIdade" layoutX="100.0" layoutY="88.0" prefWidth="122.0" />
+    <TextField fx:id="txtCidade" layoutX="100.0" layoutY="119.0" prefWidth="298.0" />
+    <TextField fx:id="txtLogin" layoutX="100.0" layoutY="152.0" prefWidth="200.0" />
+    <PasswordField fx:id="txtSenha" layoutX="99.0" layoutY="186.0" prefWidth="200.0" />
+    <Button fx:id="jbtSalvar" layoutX="100.0" layoutY="222.0" mnemonicParsing="false" onAction="#salvar" prefWidth="99.0" text="SALVAR" />
+    <Button fx:id="jbtCancelar" layoutX="249.0" layoutY="222.0" mnemonicParsing="false" onAction="#cancelar" prefWidth="99.0" text="CANCELAR" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="386.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml" fx:controller="ConsultaController">
+  <children>
+    <TableView layoutX="14.0" layoutY="83.0" prefHeight="217.0" prefWidth="572.0">
+      <columns>
+        <TableColumn prefWidth="75.0" text="CÓDIGO" fx:id="tabelaCliente" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="246.0" text="NOME" />
+        <TableColumn prefWidth="75.0" text="IDADE" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="150.0" text="CIDADE" />
+      </columns>
+    </TableView>
+    <Button layoutX="208.0" layoutY="329.0" mnemonicParsing="false" prefWidth="170.0" text="SAIR" />
+    <Label layoutX="202.0" layoutY="32.0" text="CONSULTA DE CLIENTES">
+      <font>
+        <Font size="18.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>
